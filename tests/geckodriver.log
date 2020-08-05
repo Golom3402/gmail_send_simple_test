@@ -1,0 +1,43 @@
+1596579288188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Aspirine\\AppData\\Local\\Temp\\rust_mozprofilewMNIME"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596579290280	Marionette	INFO	Listening on port 57821
+1596579290328	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1596579458104	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Aspirine\\AppData\\Local\\Temp\\rust_mozprofile6gLYi4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596579460067	Marionette	INFO	Listening on port 58140
+1596579460305	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1596579555632	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:868:16
+dispatch/</req<@chrome://marionette/content/listener.js:541:14
+dispatch/<@chrome://marionette/content/listener.js:534:15
+1596579584340	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:868:16
+dispatch/</req<@chrome://marionette/content/listener.js:541:14
+dispatch/<@chrome://marionette/content/listener.js:534:15
+1596579619259	Marionette	INFO	Stopped listening on port 58140
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
